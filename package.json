@@ -1,0 +1,31 @@
+{
+  "name": "survive-sjtu-manual",
+  "version": "1.0.0",
+  "description": "上海交通大学生存手册",
+  "main": "index.js",
+  "scripts": {
+    "install": "gitbook install",
+    "build": "gitbook build",
+    "serve": "gitbook serve",
+    "start": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SurviveSJTU/SurviveSJTUManual.git"
+  },
+  "keywords": [
+    "gitbook",
+    "sjtu",
+    "manual",
+    "survival"
+  ],
+  "author": "SurviveSJTU",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
